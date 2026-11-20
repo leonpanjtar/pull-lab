@@ -8,7 +8,7 @@ Newest week first. First meetings before 2026-11-14 were not counted on this fir
 
 | Week ending | First meetings | Bar | With demand and a fit | New customers (Pipedrive won) | Notes |
 |---|---|---|---|---|---|
-| 2026-11-20 | 5+ (3 on Leon's calendar, 2 logged by Olga; Olga's calendar not readable) | 15 · miss | 3 fit v1 and pulled (Bespoke, Beyond Yurt, My Retreat) | 1 (Bespoke Modular Living) | 5 new deals opened |
+| 2026-11-20 | 7 held of 11 booked, 4 no-shows (Pipedrive activities, re-counted 2026-11-20) | 15 · miss | 4 fit v1 and pulled (Bespoke, Beyond Yurt, My Retreat, Homestead Millworks) | 1 (Bespoke Modular Living) | 10 new deals opened; Homestead closed as "Wrong timing" after pulling |
 | 2026-11-13 | not counted | 15 | | 4 (T&T, Titan Garden Buildings, Alux, Garden Spirit) | |
 | 2026-11-06 | not counted | 15 | | 0 | |
 | 2026-10-30 | not counted | 15 | | 2 (Sett Living, Shoreline Shutters) | |
@@ -44,4 +44,5 @@ Newest week first. First meetings before 2026-11-14 were not counted on this fir
 
 ## Notes on what is working
 
-- Too early to say. Lost deals aren't readable through the current Pipedrive connector, so close rate per channel is unknown.
+- 2026-11-20: close rate on real opportunities (no-shows and disqualified left out), Pipedrive API: Aug 15%, Sep 10%, Oct 22%, Nov 19% (to Nov 20). Q4: 12 won of 58. Top loss reason: "Wrong timing" (19 of 46), 11 of them at Commited or Confirmed. Not yet split by channel.
+- 2026-11-20: no-shows are 47 of 142 Q4 losses; this week 4 of 11 booked first demos.
