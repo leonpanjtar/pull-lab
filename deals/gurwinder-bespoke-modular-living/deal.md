@@ -13,7 +13,7 @@ pull: yes
 
 ## PULL (latest read, 2026-11-20)
 - **Pulled?** Yes. Signed 2026-11-19 after a "good to go?" call; opened the quote 4 times that evening.
-- **Fits the case study?** Draft v1 (direct-selling garden room and modular builders): yes.
+- **Fits the case study?** v1 (checked 2026-11-20): yes. Sells direct to homeowners, came in through the website.
 
 | | What it is | In their words |
 |---|---|---|

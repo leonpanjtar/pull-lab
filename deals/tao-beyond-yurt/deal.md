@@ -13,7 +13,7 @@ pull: yes
 
 ## PULL (latest read, 2026-11-20)
 - **Pulled?** Yes. He asked to cancel his Nov 27 slot and move the demo forward to Nov 18. After the demo he asked us not to work with his direct competitor ("yurt in the dirt").
-- **Fits the case study?** Draft v1: yes.
+- **Fits the case study?** v1 (checked 2026-11-20): yes. Sells direct, came from an ad.
 
 | | What it is | In their words |
 |---|---|---|

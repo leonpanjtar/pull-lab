@@ -13,7 +13,7 @@ pull: yes
 
 ## PULL (latest read, 2026-11-20)
 - **Pulled?** Yes. Asked what we can do on the onboarding fee; wants to be live before Christmas (Olga's summary).
-- **Fits the case study?** Draft v1: yes. Clearest Unavoidable this week.
+- **Fits the case study?** v1 (checked 2026-11-20): yes. Sells direct, launching a new product line on a deadline.
 
 | | What it is | In their words |
 |---|---|---|

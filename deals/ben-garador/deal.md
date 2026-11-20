@@ -13,7 +13,7 @@ pull: partial
 
 ## PULL (latest read, 2026-11-20)
 - **Pulled?** Partial. On 2026-10-08 Ben took the 14-day go-live promise: "we'll hold you to that". On 2026-11-11 he accepted ~£10.5k/year ("that's fine") but no decision; "we need to come to a decision first".
-- **Fits the case study?** Not draft v1: manufacturer selling through trade, larger deal.
+- **Fits the case study?** v1 (checked 2026-11-20): no. 100% trade, larger deal.
 
 | | What it is | In their words |
 |---|---|---|

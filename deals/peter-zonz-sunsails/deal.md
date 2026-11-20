@@ -13,7 +13,7 @@ pull: partial
 
 ## PULL (latest read, 2026-11-20)
 - **Pulled?** Partial. He asked the price before anything else, picked the demo slot himself and read the Spolding & Sons case study three times on Nov 20. No call yet.
-- **Fits the case study?** Partly: direct seller, but shade sails, not buildings.
+- **Fits the case study?** v1 (checked 2026-11-20): partly. Direct webshop, no sign of ads or a launch.
 
 | | What it is | In their words |
 |---|---|---|

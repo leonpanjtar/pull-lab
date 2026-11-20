@@ -12,7 +12,7 @@ pull: no
 
 ## PULL (latest read, 2026-11-20)
 - **Pulled?** No evidence. Demo with Leon 2026-11-19, no notes logged.
-- **Fits the case study?** No.
+- **Fits the case study?** v1 (checked 2026-11-20): no. A restaurant.
 
 ## Timeline
 - 2026-11-04: lead form, research flags B2C hospitality.

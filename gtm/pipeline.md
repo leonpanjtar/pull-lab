@@ -8,7 +8,7 @@ Newest week first. First meetings before 2026-11-14 were not counted on this fir
 
 | Week ending | First meetings | Bar | With demand and a fit | New customers (Pipedrive won) | Notes |
 |---|---|---|---|---|---|
-| 2026-11-20 | 5+ (3 on Leon's calendar, 2 logged by Olga; Olga's calendar not readable) | 15 · miss | 2 (Beyond Yurt, My Retreat) | 1 (Bespoke Modular Living) | 5 new deals opened |
+| 2026-11-20 | 5+ (3 on Leon's calendar, 2 logged by Olga; Olga's calendar not readable) | 15 · miss | 3 fit v1 and pulled (Bespoke, Beyond Yurt, My Retreat) | 1 (Bespoke Modular Living) | 5 new deals opened |
 | 2026-11-13 | not counted | 15 | | 4 (T&T, Titan Garden Buildings, Alux, Garden Spirit) | |
 | 2026-11-06 | not counted | 15 | | 0 | |
 | 2026-10-30 | not counted | 15 | | 2 (Sett Living, Shoreline Shutters) | |
