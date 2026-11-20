@@ -14,7 +14,7 @@ AI Rob owns every judgment here: whether the buyer pulled, P, U, L+L, fit with t
 
 ## 1. Gather
 
-- **The new input:** the transcript, thread, email or notes the founder gave you. If there's nothing, look in the connected tools: today's meeting in the call recorder, the latest messages in the TalkToHumans thread.
+- **The new input:** the transcript, thread, email or notes the founder gave you. If there's nothing, look in the connected tools: today's meeting in the call recorder, the latest messages in the TalkToHumans thread. For the deal's stage, value, lost reason and notes, use `scripts/pipedrive.py` (read-only).
 - **The person:** search `deals/` for the name and company and read the whole file. If there's none, build the context: their LinkedIn profile and thread (TalkToHumans MCP), how the conversation started, who introduced them, which outreach angle they answered.
 - **The case study:** the current version in `gtm/case-study.md`.
 - **Account** (skip if they have no account): with Stripe, plan, amount, since when, invoices paid or open, trial end, cancellation reason. With PostHog or Mixpanel, signup date, activation (as defined in `context/product.md`), what they actually do in the product (the events they use most, and how often), last activity. Note the ids you matched on and the date.

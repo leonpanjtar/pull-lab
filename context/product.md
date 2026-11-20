@@ -1,30 +1,23 @@
 # Product
 
-<!-- What the product does, and what counts as a user getting value. Link your docs if you have them. -->
+<!-- DRAFT 2026-11-20 by Claude. -->
 
 ## What it does
 
-<!-- Three to five lines. What the buyer does with it, not the feature list. -->
+Outdoor-living businesses (pergolas, verandas, garden rooms, carports, awnings) put a 3D configurator on their website. Buyers design the product and see a price. Each design arrives as a ready quote, Encharge-style scoring shows which buyers are hot, and the Sales Hub and Dealer Hub let staff and dealers quote and order from the same price logic.
 
 ## Pricing
 
 | Plan | Price | Includes |
 |---|---|---|
-| | | |
+| Standard (most new deals) | ~$6,000 first year (onboarding + ~$297 to $500/month) | Configurator, quotes, follow-up. TO CONFIRM |
+| Multi-product / enterprise | €18k to €31k first year | Several product lines, dealer access. TO CONFIRM |
 
 ## Activation
 
-- **Activation event:** <!-- the first action that shows real use, e.g. "first Message Sent within 7 days of signup" -->
-- **Why that event:** <!-- e.g. "users who do it pay 10x more often" -->
+- **Activation event:** TO CONFIRM (suggestion: configurator live on the customer's site and first buyer quote received)
+- **Why that event:** TO CONFIRM
 
 ## Events tracked
 
-<!-- The event names in your analytics tool, so the weekly review queries the right ones. -->
-
-| Event | Meaning |
-|---|---|
-| | |
-
-## Docs
-
-<!-- link -->
+SQ Hive "core actions": quotes, calls, messages, stage moves, tasks, bookings, orders, Studio saves. "Buyer demand" = inquiries from the customer's buyers.

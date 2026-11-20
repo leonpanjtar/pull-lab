@@ -38,6 +38,8 @@ When `gtm/case-study.md` doesn't exist yet:
 
 Use each tool listed as connected in `context/company.md`. A tool that isn't connected, or fails, is not a zero: write "not connected" or the error in that section's source line and ask the founder for the number in step 4.
 
+For the CRM, prefer `scripts/pipedrive.py` (read-only Pipedrive REST: `deals --status won|lost|open --days 90`, `notes --deal ID`). It's the only source for lost deals, so close rate depends on it. It respects the shared daily API budget and stops itself below the floor; never work around that, and never write to Pipedrive from it.
+
 Read-only everywhere. This skill never sends, imports, edits or deletes anything in a tool.
 
 - **Outreach.** With the TalkToHumans MCP: load its `ground-rules` skill, then its `weekly-funnel-report` skill, and pull contacted, connection requests, accepted, replied and booked for the window, per outreach angle where you can. Name who replied and who booked. Without it: ask.
@@ -182,7 +184,7 @@ The chat reply is short: the founder reads it, the file holds the detail.
 
 How to show the visuals:
 
-- **If the agent can render visuals inline** (a chart or widget tool, or artifacts), draw all four in one visual, using the agent's chart guidance for colors and dark mode. Keep tables and prose out of the visual: they go in the reply text.
+- **If the agent can render visuals inline** (a chart or widget tool, or artifacts), draw all four in one visual, using the agent's chart guidance for colors and dark mode. Keep tables and prose out of the visual: they go in the reply text. When the visual is an HTML page (artifacts), save it next to the review as `reviews/YYYY-MM-DD.html` and republish the same page when the review is re-run.
 - **Otherwise** (a terminal, Codex, Cursor), show the same four blocks with the text bars from the review file, in a code block so they line up.
 - Nothing else gets a chart. Outreach angles, activation and revenue stay as text in the file: the bottleneck outranks them.
 
