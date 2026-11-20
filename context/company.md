@@ -1,42 +1,41 @@
 # Company
 
-<!-- Fill this in first. Keep it short: the agent reads it before every task.
-     Update the dated lines when they change. See examples/honeypot/context/company.md for a filled-in version. -->
+<!-- DRAFT 2026-11-20, written by Claude from Pipedrive, SQ Hive and what Leon has said before. Lines marked TO CONFIRM need Leon's check. -->
 
 ## What we sell
 
-- **Product:** <!-- one sentence, in a buyer's words if you have them -->
-- **Price:** <!-- e.g. $49/month per seat -->
-- **Contract size band:** <!-- big ($100k+), moderate ($25k to $99k) or small (under $25k), by first-year contract value. It sets the scorecard bars. -->
-- **Who has paid so far:** <!-- facts only: names or counts, and what they use it for. Not an ICP. -->
+- **Product:** SaleSqueze. A 3D configurator on the customer's website that turns each design into a priced quote, plus the sales tools to follow quotes up (Sales Hub, Dealer Hub, Showroom).
+- **Price:** typically an onboarding fee plus a monthly subscription. Recent new deals in Pipedrive: $297 to $500/month, most first-year deals $4k to $12k (Pipedrive, Aug to Nov 2026). Larger multi-product deals reach €18k to €31k (Sett Living, Glaxior).
+- **Contract size band:** small (under $25k first-year). TO CONFIRM.
+- **Who has paid so far (last 90 days, Pipedrive won deals):** 22 new customers. Garden rooms, timber buildings and modular (Timber Rooms, C and S Sheds, Amazing Space, Titan Garden Buildings, Bespoke Modular Living), verandas and pergolas (El Veranda, EG Veranda, Pristine Patio, Verano, Sett Living, Tecnoterrazas, Glaxior), and others (Shoreline Shutters, T&T Home Improvement, VFM, Madej Stal, THOR Bau).
 
 ## Stage
 
-- **Started:** <!-- date -->
-- **Paying customers:** <!-- number, as of YYYY-MM-DD, source -->
-- **MRR:** <!-- amount and currency, as of YYYY-MM-DD, source -->
-- **Where we are:** <!-- PULL found → one case study → repeatable (3 to 5) → factory -->
+- **Started:** TO CONFIRM
+- **Paying customers:** 100+ (Leon, as stated). SQ Hive evaluated 122 active customers on 2026-11-15.
+- **MRR:** unknown. Stripe sign-in has expired. TO CONFIRM.
+- **Where we are:** paying customers in several outdoor-living segments, no written case study yet.
 
 ## The one goal
 
-- **Goal:** <!-- e.g. €4,000 MRR by 2027-01-31 -->
-- **Why that goal:** <!-- what it unlocks: going full-time, a raise, a decision date -->
+- **Goal:** TO CONFIRM
+- **Why that goal:** TO CONFIRM (Series A path?)
 
 ## Constraints
 
-- **Time on sales per week:** <!-- hours, per founder -->
-- **Runway:** <!-- months, or "funded until ..." -->
-- **We won't:** <!-- e.g. raise, hire, sell services, cold email -->
+- **Time on sales per week:** TO CONFIRM
+- **Runway:** TO CONFIRM
+- **We won't:** TO CONFIRM
 
 ## Tools connected
 
-<!-- The skills use what's listed here and skip the rest. -->
-
 | Slot | Tool | Notes |
 |---|---|---|
-| PULL brain | AI Rob (Skillfully MCP) | required |
-| LinkedIn outreach | | |
-| Call recording | | |
-| Billing | | |
-| Product analytics | | |
-| Lead sourcing | | |
+| PULL brain | AI Rob (Skillfully MCP) | Not connected. Leon's instruction 2026-11-20: use the installed pull-scoring-protocol skill instead |
+| CRM | Pipedrive | Deals, notes, stages. Lost deals not readable through the current connector |
+| Call recording | Fathom | No connector. Links sit in Pipedrive notes; transcripts need a manual copy |
+| Calendar | Google Calendar | Leon's calendar only |
+| Billing | Stripe | Connector sign-in expired |
+| Customer usage | SQ Hive | Churn risk, engagement per customer |
+| Outbound | lemlist, Explee email (Rebecca), WhatsApp (Ajda) | No weekly funnel numbers pulled yet |
+| Lead scoring | Encharge | Marks HOT leads in Pipedrive notes |
