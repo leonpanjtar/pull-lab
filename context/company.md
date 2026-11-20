@@ -38,5 +38,5 @@ Target setup is Leon's weekly loop (2026-11-20). Status as of 2026-11-20.
 | Call recording | Granola | Not installed | Fathom links in Pipedrive notes, no transcripts |
 | Billing | Stripe | Sign-in expired | Pipedrive deal values |
 | Product analytics | PostHog | Not installed | SQ Hive churn risk and engagement. TO CONFIRM: is PostHog on the app? |
-| CRM | Pipedrive | Connected | |
+| CRM | Pipedrive | Connected (MCP on Leon's Mac; REST API via `scripts/pipedrive.py` from the "pull-lab" cloud environment, added 2026-11-20) | Token lives outside the repo: environment network secret or gitignored `.env` |
 | Calendar | Google Calendar | Leon's only | |

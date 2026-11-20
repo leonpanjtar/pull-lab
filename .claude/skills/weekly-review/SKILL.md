@@ -38,6 +38,8 @@ When `gtm/case-study.md` doesn't exist yet:
 
 Use each tool listed as connected in `context/company.md`. A tool that isn't connected, or fails, is not a zero: write "not connected" or the error in that section's source line and ask the founder for the number in step 4.
 
+For the CRM, prefer `scripts/pipedrive.py` (read-only Pipedrive REST: `deals --status won|lost|open --days 90`, `notes --deal ID`). It's the only source for lost deals, so close rate depends on it. It respects the shared daily API budget and stops itself below the floor; never work around that, and never write to Pipedrive from it.
+
 Read-only everywhere. This skill never sends, imports, edits or deletes anything in a tool.
 
 - **Outreach.** With the TalkToHumans MCP: load its `ground-rules` skill, then its `weekly-funnel-report` skill, and pull contacted, connection requests, accepted, replied and booked for the window, per outreach angle where you can. Name who replied and who booked. Without it: ask.
