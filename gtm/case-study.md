@@ -4,17 +4,18 @@ As of 2026-11-20.
 
 ## Current version
 
-**Status:** v1, approved by Leon 2026-11-20. Not yet repeated on calls with the Unavoidable in the buyer's own words.
+**Status:** v1.1, approved by Leon 2026-11-20. Not yet repeated on calls with the Unavoidable in the buyer's own words.
 
-**Who:** an outdoor-living business that sells custom builds (pergolas, garden rooms, fences, carports) direct to homeowners, while paying for ads or entering a market against established sellers.
+**Who:** an outdoor-living business that sells custom builds (pergolas, garden rooms, sheds, fences, carports) direct to homeowners, while paying for ads, entering a market against established sellers, or losing the configurator it quotes with.
 
 **Demand (PULL), as one sentence:**
-> I believe an outdoor-living business that sells custom builds direct to homeowners (pergolas, garden rooms, fences, carports), when it's paying for ads or entering a market against established sellers, has to get a priced quote to each buyer before a faster competitor does, and considers quoting by hand, a contact form with a callback, or a custom-built configurator, but finds hand quotes take 30 minutes to 3 hours each so buyers pick whoever priced first, forms fill up with tire-kickers nobody can sort, and custom configurators cost too much.
+> I believe an outdoor-living business that sells custom builds direct to homeowners (pergolas, garden rooms, sheds, fences, carports), when it's paying for ads, entering a market against established sellers, or losing the configurator it quotes with (a supplier stops, a dealer tool ends), has to get a priced quote to each buyer before a faster competitor does, and considers quoting by hand, a contact form with a callback, or a custom-built configurator, but finds hand quotes take 30 minutes to 3 hours each so buyers pick whoever priced first, forms fill up with tire-kickers nobody can sort, and custom configurators cost too much.
 
 | | What it is | In their words |
 |---|---|---|
 | **P** · Project | Get a priced quote to every inquiry fast enough to win it | "They wanted quick answers: What will the pergola look like? How much will it cost?" (Dylan Ayer, Spa Solutions, published 2026-01-15) |
 | **U** · Unavoidable | Buyers go to whoever prices first; a new brand has no showroom or reputation to fall back on | "if we took too long to respond, the customer had already chosen someone else" (Tamas Horvath, YourPergola, published 2026-03-28) · "Nobody drives two hours to a showroom just to see a fence." (Vlad Bostan, Mavlli, 2026-10-19) |
+| **U** · Unavoidable (trigger 2) | The configurator they quote with is going away: the supplier stops or the dealer tool ends, so they can't quote at all | not yet in a buyer's words. Summaries: My Retreat, supplier stopped manufacturing (Olga, 2026-11-17); Homestead Millworks, supplier's simulator ends (Nova, 2026-11-17) |
 | **L** · Quote by hand | 30 min to 3 h per quote, evenings and weekends, one person as the ceiling | "We used to spend at least 30 minutes on each quote." (Tamas Horvath) |
 | **L** · Contact form and callback | Tire-kickers, inquiries outside office hours wait | "The most popular time for inquiries was late afternoon or during weekends when our sales team was out of office." (Armat) |
 | **L** · Custom-built configurator | Too expensive | "in het verleden schrok ik elke keer vd prijzen van configuratoren" (Peter Ogterop, ZONZ sunsails, email 2026-11-19) |
@@ -23,9 +24,15 @@ As of 2026-11-20.
 **Proof:**
 
 - 12 published stories ([digest](proof/website-case-studies.md)): Garden Spirit, Nordin, YourPergola, Spa Solutions, Caribbean Blinds, Spolding and Sons, Hrovat, FollHaus, Armat, Impol, Mavlli, Dekor senčila. Outcomes after buying, not call evidence.
-- Week of 2026-11-20: [Bespoke Modular Living](../deals/gurwinder-bespoke-modular-living/deal.md) signed; [Beyond Yurt](../deals/tao-beyond-yurt/deal.md) and [My Retreat](../deals/kieron-my-retreat-garden-rooms/deal.md) pulled. None said the Unavoidable in their own words on a call yet.
+- Week of 2026-11-20: [Bespoke Modular Living](../deals/gurwinder-bespoke-modular-living/deal.md) signed; [Beyond Yurt](../deals/tao-beyond-yurt/deal.md), [My Retreat](../deals/kieron-my-retreat-garden-rooms/deal.md) and [Homestead Millworks](../deals/marcos-homestead-millworks/deal.md) pulled. None said the Unavoidable in their own words on a call yet.
 
 ## Changelog (newest first)
+
+### 2026-11-20 v1.1
+
+- **What changed:** a third trigger, "or losing the configurator it quotes with (a supplier stops, a dealer tool ends)", and sheds added to the products.
+- **Why:** two v1 buyers who pulled this week named that reason to buy now: [My Retreat](../deals/kieron-my-retreat-garden-rooms/deal.md) (Makeroom stopped manufacturing) and [Homestead Millworks](../deals/marcos-homestead-millworks/deal.md) (supplier's simulator ends). Both from summaries, not the buyers' words. Approved by Leon 2026-11-20 ("ok", after the weekly review re-run).
+- **v1 sentence, kept:** > I believe an outdoor-living business that sells custom builds direct to homeowners (pergolas, garden rooms, fences, carports), when it's paying for ads or entering a market against established sellers, has to get a priced quote to each buyer before a faster competitor does, and considers quoting by hand, a contact form with a callback, or a custom-built configurator, but finds hand quotes take 30 minutes to 3 hours each so buyers pick whoever priced first, forms fill up with tire-kickers nobody can sort, and custom configurators cost too much.
 
 ### 2026-11-20 v1
 
