@@ -29,13 +29,14 @@
 
 ## Tools connected
 
-| Slot | Tool | Notes |
-|---|---|---|
-| PULL brain | AI Rob (Skillfully MCP) | Not connected. Leon's instruction 2026-11-20: use the installed pull-scoring-protocol skill instead |
-| CRM | Pipedrive | Deals, notes, stages. Lost deals not readable through the current connector |
-| Call recording | Fathom | No connector. Links sit in Pipedrive notes; transcripts need a manual copy |
-| Calendar | Google Calendar | Leon's calendar only |
-| Billing | Stripe | Connector sign-in expired |
-| Customer usage | SQ Hive | Churn risk, engagement per customer |
-| Outbound | lemlist, Explee email (Rebecca), WhatsApp (Ajda) | No weekly funnel numbers pulled yet |
-| Lead scoring | Encharge | Marks HOT leads in Pipedrive notes |
+Target setup is Leon's weekly loop (2026-11-20). Status as of 2026-11-20.
+
+| Slot | Target tool | Status 2026-11-20 | Used today instead |
+|---|---|---|---|
+| PULL brain | AI Rob (Skillfully MCP) | Not connected | pull-scoring-protocol skill (Leon's call) |
+| Lead gen and LinkedIn outreach | TalkToHumans | Not connected (not in the public connector directory) | Pipedrive stalled deals; outbound runs as Explee email (Rebecca) and WhatsApp (Ajda) |
+| Call recording | Granola | Not installed | Fathom links in Pipedrive notes, no transcripts |
+| Billing | Stripe | Sign-in expired | Pipedrive deal values |
+| Product analytics | PostHog | Not installed | SQ Hive churn risk and engagement. TO CONFIRM: is PostHog on the app? |
+| CRM | Pipedrive | Connected | |
+| Calendar | Google Calendar | Leon's only | |
