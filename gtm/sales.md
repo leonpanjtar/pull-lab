@@ -1,5 +1,11 @@
 # Sales Log
 
+Rollup as of 2026-11-23 (window 2026-11-17 to 23, Pipedrive and Stripe; judgments by Claude, not AI Rob):
+
+- **Standard 3 (Pull):** 4 of 7 logged conversations (57%): Bespoke, Beyond Yurt, My Retreat, Homestead pulled; Millers Poly, Kauslunde Kro, AyazWood didn't. 4 of 4 v1 fits. Concept Modular, Bill Wickman and Garador have no notes. Bar: 60%.
+- **Standard 4 (Close rate):** 22% in Q4 to 2026-11-23: 13 won of 60 real opportunities. Since 2026-11-20: +1 won (My Retreat), +1 real loss (Celtic Garden Homes, chose a cheaper competitor). Incremental update on the 2026-11-20 count, not a full recount. Bar: 50%.
+- **Standard 5 (Cycle time):** median 18 days (2026-11-20 count). This week: My Retreat 3 days call to payment, Bespoke 26 days. Bar: 14 days.
+
 Rollup as of 2026-11-20:
 
 - **Standard 3 (Pull):** 4 of 6 logged conversations this week (67%); 4 of 4 among case study v1 fits, 0 of 2 among non-fits (re-counted 2026-11-20 with Pipedrive activities and notes). Bar: 60%.
@@ -12,6 +18,10 @@ One row per call, newest first. "In their words" is only verbatim buyer text; a 
 
 | Date | Buyer | Pulled? | In their words | Fits case study? | Next step | Outcome | Cycle | Do differently |
 |---|---|---|---|---|---|---|---|---|
+| 2026-11-23 | [Peter Ogterop, ZONZ sunsails](../deals/peter-zonz-sunsails/deal.md) (Tanja pre-call, ~8 min) | **Yes**: asked for a live dealer-network example in the demo | "spotting a customer I forgot to call back two weeks ago" (Tanja's notes) | v1.1 situation fits; trigger is a new supplier (Soliday pergolas) | Demo Tue 2026-11-24 09:00 with Olga, price first | Open | | Get the why-now date in his own words on the demo |
+| 2026-11-23 | Bax Janibekov, AyazWood (Pipedrive 3377), follow-up with Olga | No | not logged | Partly: outdoor saunas direct to Florida homeowners; "no capacity to grow" (Nov 9 note) | none | Lost "Wrong timing" 5 minutes after the call | | Log what he said |
+| 2026-11-23 | Lee Berks, Nebraska Backyard Living (Pipedrive 3406) | No-show | | Unknown | Re-book call 2026-11-24 | Lost "No show" | | 3 pre-qualification attempts before the demo |
+| 2026-11-20 | [Kieron Summerhayes, My Retreat](../deals/kieron-my-retreat-garden-rooms/deal.md) | **Yes**, paid | No verbatim quote logged | v1 fits | Onboarding, live before Christmas | **Won**: $1,633.50 per 6 months (Stripe), ~$272/mo | 3 days | Save his why-now in his words at kickoff |
 | 2026-11-20 | [Ben Parkin, Garador](../deals/ben-garador/deal.md) | Not logged yet | | No case study yet | | Open | | Log the call in Pipedrive with quotes |
 | 2026-11-19 | [Gurwinder Singh, Bespoke Modular Living](../deals/gurwinder-bespoke-modular-living/deal.md) | **Yes**, signed after a "good to go?" call, opened the quote 4 times that evening | No verbatim quote logged | v1 fits | Handover doc sent | **Won**, $297/mo | 26 days | Save the buyer's own words from Fathom (recording failed at 10 min on the demo) |
 | 2026-11-19 | [Peter Ogterop, ZONZ sunsails](../deals/peter-zonz-sunsails/deal.md) (email, not a call) | **Yes**, asked the price first | "vooral tegen welke prijs" (mostly at what price) | Partly: shade sails, direct webshop | Demo Tue 2026-11-24 09:00 with Olga | Open | | |

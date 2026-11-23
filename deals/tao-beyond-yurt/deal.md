@@ -30,3 +30,4 @@ pull: yes
 - 2026-11-14: ad, booking, WhatsApp qualification with Ajda. Demo moved to Nov 18 at his request.
 - 2026-11-18: demo with Olga.
 - 2026-11-19: asked us to avoid his competitor and keep him out of our marketing without written consent.
+- 2026-11-23: still Confirmed in Pipedrive, next activity due 2026-11-24. No new notes since 2026-11-19.

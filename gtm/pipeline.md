@@ -1,6 +1,6 @@
 # Pipeline
 
-As of 2026-11-20. SaleSqueze is a small contract (~$6k first year), so the bar is 15 first meetings a week (bar from the repo's sample, not confirmed by AI Rob).
+As of 2026-11-23. SaleSqueze is a small contract (~$6k first year), so the bar is 15 first meetings a week (bar from the repo's sample, not confirmed by AI Rob).
 
 ## Top-line (all channels combined)
 
@@ -8,6 +8,7 @@ Newest week first. First meetings before 2026-11-14 were not counted on this fir
 
 | Week ending | First meetings | Bar | With demand and a fit | New customers (Pipedrive won) | Notes |
 |---|---|---|---|---|---|
+| 2026-11-23 (off-schedule, Nov 17 to 23) | 7 held of 12 booked, 5 no-shows (Pipedrive activities). No first demo held Nov 20 to 23; Nebraska Backyard no-show Nov 23 | 15 · miss | Same 4 v1 pulls; ZONZ (v1.1 situation) pulled on Tanja's pre-call | 2 (Bespoke Nov 19, My Retreat Nov 20 in Stripe) | Celtic Garden Homes lost to a cheaper competitor; Homestead still not reopened; ~10 stale deals closed out Nov 23 |
 | 2026-11-20 | 7 held of 11 booked, 4 no-shows (Pipedrive activities, re-counted 2026-11-20) | 15 · miss | 4 fit v1 and pulled (Bespoke, Beyond Yurt, My Retreat, Homestead Millworks) | 1 (Bespoke Modular Living) | 10 new deals opened; Homestead closed as "Wrong timing" after pulling |
 | 2026-11-13 | not counted | 15 | | 4 (T&T, Titan Garden Buildings, Alux, Garden Spirit) | |
 | 2026-11-06 | not counted | 15 | | 0 | |

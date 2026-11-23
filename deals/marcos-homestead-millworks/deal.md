@@ -30,3 +30,4 @@ pull: yes
 - 2026-11-16: confirmed attendance by email.
 - 2026-11-17: 83-minute demo with Olga. Asked for written pricing and a demo link. Marked lost "Wrong timing" the same evening.
 - 2026-11-20: flagged in the weekly review: pulled, then closed. Reopen and send what he asked for.
+- 2026-11-23: checked Pipedrive: still lost, no note, call or email since 2026-11-17. The pricing and demo link he asked for haven't been sent (6 days).
