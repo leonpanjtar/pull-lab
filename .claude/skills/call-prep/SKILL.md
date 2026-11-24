@@ -24,9 +24,10 @@ Trigger: a name, a calendar screenshot, or "script for my call with X".
 
 - **The deal:** search `deals/` for the name and company and read the whole `deal.md`: context, PULL read, account, timeline and the latest review. Then their past entries in `gtm/sales.md`.
 - **LinkedIn thread:** with the TalkToHumans MCP, load its `ground-rules` skill, find the contact and read the conversation.
-- **Past calls:** with a call recorder MCP, search meetings with this person and read them. A transcript that is music or noise means that call didn't happen or wasn't recorded. Say so.
+- **Past calls:** with the Granola MCP (or another call recorder MCP if Granola isn't connected), search meetings with this person and read the transcripts. A transcript that is music or noise means that call didn't happen or wasn't recorded. Say so.
 - **Case study:** the current version in `gtm/case-study.md`: does this person look like that situation, which slot is still unproven (often U), and the questions it says to ask on every call.
 - **Call script:** `gtm/sales-process.md`, if the founder keeps one.
+- **Closest past deal:** in `deals/`, the one or two deals in the same case study situation, preferably one that pulled or paid. Note what they said about each PULL slot and what happened next. Live mode uses it for the 💡 Tip, since Live can't open files.
 - **AI Rob:** load it.
 
 If the deal file is stale (its newest timeline line is over 14 days old, or the thread or past calls hold something newer) and the call is more than 20 minutes away, run [deal-review](../deal-review/SKILL.md) first. Otherwise build from the fresh data and leave the review for Debrief. If there's no deal file at all, build from the thread and past calls, and create it in Debrief.
@@ -47,7 +48,7 @@ Trigger: a pasted transcript chunk, or "update", "u", "where am I".
 
 **Speed rules:**
 - Call no tool except AI Rob re-reads (one parallel batch). Don't reread the deal file or the LinkedIn thread.
-- With nothing pasted, try today's transcript from the call recorder. If it isn't there, ask for the paste in one line.
+- With nothing pasted, try today's transcript from Granola (or the connected call recorder). If it isn't there, ask for the paste in one line.
 - One screen, then stop. No intro, no recap.
 
 **Read the transcript:**
@@ -161,6 +162,6 @@ Format rules:
   - **⏭ Then** folds every phase after the current one (Transition aside) into one line each, in order: phase name, its key line in bold, and where a yes leads. The founder should always see what comes after the buyer says yes. When a phase becomes current, its line opens into Say now.
 - **`full`** shows every remaining phase opened with all its branches. Prep ends with one line: "During the call, paste the transcript so far or say `update`. Type `full` for the whole call script."
 - **🚪 No PULL?** is its own section on every screen, so the exit is visible at every point of the call.
-- **💡 Tip** is the last section, one line that coaches the founder: the move they just made or skipped, or the trap to avoid next. It replaces any reasoning paragraph.
+- **💡 Tip** is the last section, one line that coaches the founder: the move they just made or skipped, or the trap to avoid next. When the closest past deal from Prep is relevant, draw the tip from it by name ("{past buyer} said X about {slot}. Ask {buyer} the same before you play it back."). It replaces any reasoning paragraph.
 - **Prep:** the Who section has at most 5 bullets, taken from the deal's context. Mark prefilled PULL slots `📁 confirm`.
 - No paragraphs, and no dashes in anything the founder will read aloud.

@@ -1,0 +1,142 @@
+<title>SaleSqueze Weekly Review Nov 23</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: one column, a single framed panel holding the four visuals, prose above and below */
+:root{
+  --bg:#f6f5f2; --panel:#fbfbfa; --fg:#1d1f24; --muted:#6b6e76; --line:#e3e2de;
+  --accent:#5b57f0; --accent-soft:#eceafe;
+  --pass:#1f9d4c; --pass-bg:#e6f5ec; --miss:#cc3b3b; --miss-bg:#fbe9e9;
+  --now:#c98a12; --now-bg:#fff4dc; --unk:#8a8d94; --unk-bg:#efefee; --pull:#e8693a;
+  --sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#16171a; --panel:#1d1f23; --fg:#ecebe8; --muted:#9a9ca3; --line:#2e3036;
+  --accent:#8b88ff; --accent-soft:#2a2950;
+  --pass:#4cc77a; --pass-bg:#1c3326; --miss:#f07070; --miss-bg:#3a1f22;
+  --now:#e6b24a; --now-bg:#3a2f15; --unk:#9a9ca3; --unk-bg:#26282d; --pull:#f08a5d; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#16171a; --panel:#1d1f23; --fg:#ecebe8; --muted:#9a9ca3; --line:#2e3036;
+  --accent:#8b88ff; --accent-soft:#2a2950;
+  --pass:#4cc77a; --pass-bg:#1c3326; --miss:#f07070; --miss-bg:#3a1f22;
+  --now:#e6b24a; --now-bg:#3a2f15; --unk:#9a9ca3; --unk-bg:#26282d; --pull:#f08a5d; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:15px;line-height:1.55}
+.wrap{max-width:760px;margin:0 auto;padding-block:28px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:18px}
+.eyebrow{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:22px;margin:0;text-wrap:balance}
+p{margin:0}
+.lead b{font-weight:700}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:22px}
+.sec-title{font-size:13px;color:var(--muted);margin-bottom:10px}
+.gates{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.gate{border-radius:10px;padding:9px 11px;font-size:13px;line-height:1.35}
+.gate b{display:block;font-weight:600}
+.done{background:var(--pass-bg);color:var(--pass)}
+.now{background:var(--now-bg);color:var(--now);outline:2px solid var(--now)}
+.todo{background:var(--unk-bg);color:var(--unk)}
+.score{display:grid;grid-template-columns:150px minmax(0,1fr) 150px 92px;gap:10px 12px;align-items:center;font-size:14px}
+.track{height:10px;border-radius:6px;background:var(--line);overflow:hidden}
+.fill{height:100%;border-radius:6px}
+.fill.miss{background:var(--miss)} .fill.pass{background:var(--pass)}
+.hatch{height:10px;border-radius:6px;background:repeating-linear-gradient(135deg,var(--line) 0 4px,transparent 4px 8px);border:1px solid var(--line)}
+.num{color:var(--muted);font-variant-numeric:tabular-nums;font-size:13px}
+.pill{font-size:12px;font-weight:600;border-radius:6px;padding:3px 0;text-align:center}
+.pill.miss{background:var(--miss-bg);color:var(--miss)} .pill.pass{background:var(--pass-bg);color:var(--pass)} .pill.unk{background:var(--unk-bg);color:var(--unk)}
+.tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.tile{border-radius:10px;padding:9px 10px;font-size:13px;line-height:1.3;min-height:64px}
+.tile b{display:block;font-weight:600}
+.tile.fit{background:var(--accent);color:#fff}
+.tile.nofit{border:1.5px dashed var(--line);color:var(--muted)}
+.tile.nofit b{color:var(--fg)}
+.tile.lost{background:var(--accent-soft);color:var(--accent);outline:2px solid var(--miss)}
+.tile.lost b{color:var(--fg)}
+.legend{display:flex;flex-wrap:wrap;gap:16px;font-size:12px;color:var(--muted);margin-top:8px}
+.sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.chart svg{width:100%;height:auto;display:block}
+.chart text{fill:var(--muted);font-family:var(--sans);font-size:11px}
+.note{font-size:12px;color:var(--muted)}
+.applied{color:var(--muted);font-size:14px}
+code{background:var(--unk-bg);padding:1px 6px;border-radius:5px;font-size:13px}
+@media (max-width:620px){
+  .gates{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .tiles{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .score{grid-template-columns:110px minmax(0,1fr) 72px;font-size:13px}
+  .score .num{display:none}
+}
+</style>
+
+<div class="wrap">
+  <div class="eyebrow">SaleSqueze · weekly review · Nov 17 to 23, 2026 (off-schedule)</div>
+  <p class="lead"><b>Fast follow-up wins deals. Slow follow-up loses them.</b> We called back in 2 days: they paid. We forgot: we lost them.</p>
+
+  <div class="panel">
+    <section>
+      <div class="sec-title">1 · Where you are</div>
+      <div class="gates">
+        <div class="gate done"><b>✓ Who has PULL</b>2 new customers this week</div>
+        <div class="gate done"><b>✓ One case study</b>v1.1</div>
+        <div class="gate now"><b>▶ Repeats 3 to 5</b>here: 0 of 3 in buyers' words</div>
+        <div class="gate todo"><b>○ Factory</b>not yet</div>
+      </div>
+    </section>
+
+    <section>
+      <div class="sec-title">2 · Scorecard vs the bar</div>
+      <div class="score">
+        <span>Repeatable case study</span><div class="track"><div class="fill miss" style="width:2%"></div></div><span class="num">0 why-now quotes of 3+</span><span class="pill miss">✕ Miss</span>
+        <span>Pipeline</span><div class="track"><div class="fill miss" style="width:47%"></div></div><span class="num">7 held of 15/wk</span><span class="pill miss">✕ Miss</span>
+        <span>Pull</span><div class="track"><div class="fill miss" style="width:95%"></div></div><span class="num">57% vs 60%</span><span class="pill miss">✕ Miss</span>
+        <span>Close rate</span><div class="track"><div class="fill miss" style="width:44%"></div></div><span class="num">22% vs 50% (Q4)</span><span class="pill miss">✕ Miss</span>
+        <span>Cycle time</span><div class="track"><div class="fill miss" style="width:78%"></div></div><span class="num">18 vs 14 days</span><span class="pill miss">✕ Miss</span>
+        <span>Success rate</span><div class="hatch"></div><span class="num">X not named</span><span class="pill unk">? Unknown</span>
+      </div>
+    </section>
+
+    <section>
+      <div class="sec-title">3 · Fast follow-up = paid. No follow-up = lost.</div>
+      <div class="tiles">
+        <div class="tile fit"><b>Bespoke Modular</b>2 days · won, $297/mo</div>
+        <div class="tile fit"><b>My Retreat</b>2 days · won, ~$272/mo</div>
+        <div class="tile fit"><b>Beyond Yurt</b>1 day · open, Confirmed</div>
+        <div class="tile fit"><b>ZONZ sunsails</b>pre-call today · demo Tue</div>
+        <div class="tile lost"><b>Celtic Garden Homes</b>12+ days · lost, cheaper competitor</div>
+        <div class="tile lost"><b>Homestead Millworks</b>no step in 6 days · lost "wrong timing"</div>
+        <div class="tile nofit"><b>AyazWood</b>lost, no capacity</div>
+        <div class="tile nofit"><b>Concept, Wickman, Garador</b>no notes</div>
+      </div>
+      <div class="legend"><span><span class="sw" style="background:var(--accent)"></span>Followed up within 2 days: 2 paid, 2 open</span><span><span class="sw" style="outline:2px solid var(--miss);background:var(--accent-soft)"></span>No follow-up: 2 lost</span><span><span class="sw" style="border:1.5px dashed var(--muted)"></span>No fit or not logged</span></div>
+    </section>
+
+    <section class="chart">
+      <div class="sec-title">4 · Win rate by month (dashed line: 50% bar)</div>
+      <svg viewBox="0 0 700 170" role="img" aria-label="Close rate by month: Aug 15%, Sep 10%, Oct 22%, Nov 21%, against a 50% bar">
+        <line x1="20" y1="140" x2="690" y2="140" stroke="var(--line)"/>
+        <g id="bars"></g>
+      </svg>
+      <div class="legend"><span><span class="sw" style="background:var(--accent)"></span>Won ÷ (won + real losses), Pipedrive</span><span>No-shows and disqualified left out</span></div>
+      <p class="note">Friday's plan half worked. My Retreat got his answer and paid. Homestead and Celtic got nothing. Both lost.</p>
+    </section>
+  </div>
+
+  <p><b>The one thing:</b> buyer asks for a price, a link or a start date? Written next step within 24 hours. Nobody marks them lost without you seeing it.</p>
+  <p><b>Do this today:</b> Olga sends Marcos (Homestead) the prices and demo link. On the ZONZ demo, she asks Peter when the new pergolas go live, and writes down his exact words.</p>
+  <p class="applied">Money: MRR $35,133, up $320 this week. Still down 28% since August.</p>
+  <p><b>Case study:</b> no change yet. Three buyers bought because their supplier changed. If Peter says it today, I'll suggest adding it.</p>
+</div>
+
+<script>
+(function(){
+  var d=[["Aug",15,"5 of 33"],["Sep",10,"8 of 78"],["Oct",22,"7 of 32"],["Nov",21,"6 of 28"]];
+  var g=document.getElementById("bars"),ns="http://www.w3.org/2000/svg",x0=80,step=150,max=60,h=120;
+  function el(t,a){var e=document.createElementNS(ns,t);for(var k in a)e.setAttribute(k,a[k]);return e;}
+  var by=140-50/max*h;
+  g.appendChild(el("line",{x1:20,x2:690,y1:by,y2:by,stroke:"var(--pass)","stroke-dasharray":"5 5"}));
+  var bl=el("text",{x:690,y:by-5,"text-anchor":"end"});bl.textContent="bar 50%";g.appendChild(bl);
+  d.forEach(function(r,i){
+    var x=x0+i*step, bh=r[1]/max*h;
+    g.appendChild(el("rect",{x:x,y:140-bh,width:56,height:bh,rx:4,fill:"var(--accent)"}));
+    var v=el("text",{x:x+28,y:140-bh-6,"text-anchor":"middle"});v.textContent=r[1]+"%  ("+r[2]+")";g.appendChild(v);
+    var t=el("text",{x:x+28,y:158,"text-anchor":"middle"});t.textContent=r[0];g.appendChild(t);
+  });
+})();
+</script>
