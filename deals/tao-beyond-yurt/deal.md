@@ -31,3 +31,4 @@ pull: yes
 - 2026-11-18: demo with Olga.
 - 2026-11-19: asked us to avoid his competitor and keep him out of our marketing without written consent.
 - 2026-11-23: still Confirmed in Pipedrive, next activity due 2026-11-24. No new notes since 2026-11-19.
+- 2026-11-25: WhatsApp: "Apologies for the radio silence... I will sign everything and get that done as soon as I get a sec. Still here, still ready to go 👍🏼". Not signed by 2026-11-27; Olga checking in daily.

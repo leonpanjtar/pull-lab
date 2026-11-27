@@ -1,6 +1,6 @@
 # Pipeline
 
-As of 2026-11-23. SaleSqueze is a small contract (~$6k first year), so the bar is 15 first meetings a week (bar from the repo's sample, not confirmed by AI Rob).
+As of 2026-11-27. SaleSqueze is a small contract (~$6k first year), so the bar is 15 first meetings a week (bar from the repo's sample, not confirmed by AI Rob).
 
 ## Top-line (all channels combined)
 
@@ -8,6 +8,7 @@ Newest week first. First meetings before 2026-11-14 were not counted on this fir
 
 | Week ending | First meetings | Bar | With demand and a fit | New customers (Pipedrive won) | Notes |
 |---|---|---|---|---|---|
+| 2026-11-27 (Nov 21 to 27) | 2 held of 4 booked (ZONZ, Betaco); 2 no-shows (Nebraska Backyard, Systore). US Thanksgiving week. 6 Trial Intros booked for Nov 30 to Dec 4 | 15 · miss | 0 why-now in buyers' words; Concept Modular paid | 2 (Garador Nov 24, $14,000, not in Stripe yet; Concept Modular Nov 25, $870 + $297/mo) | 6 real losses, 5 of them "not now" (Ruby UK, BEMANI, Betaco, Ready Nest, DFW Custom Sauna) plus Först building its own. Team moving to a personalized one-week trial (Nov 24) |
 | 2026-11-23 (off-schedule, Nov 17 to 23) | 7 held of 12 booked, 5 no-shows (Pipedrive activities). No first demo held Nov 20 to 23; Nebraska Backyard no-show Nov 23 | 15 · miss | Same 4 v1 pulls; ZONZ (v1.1 situation) pulled on Tanja's pre-call | 2 (Bespoke Nov 19, My Retreat Nov 20 in Stripe) | Celtic Garden Homes lost to a cheaper competitor; Homestead still not reopened; ~10 stale deals closed out Nov 23 |
 | 2026-11-20 | 7 held of 11 booked, 4 no-shows (Pipedrive activities, re-counted 2026-11-20) | 15 · miss | 4 fit v1 and pulled (Bespoke, Beyond Yurt, My Retreat, Homestead Millworks) | 1 (Bespoke Modular Living) | 10 new deals opened; Homestead closed as "Wrong timing" after pulling |
 | 2026-11-13 | not counted | 15 | | 4 (T&T, Titan Garden Buildings, Alux, Garden Spirit) | |
@@ -44,6 +45,9 @@ Newest week first. First meetings before 2026-11-14 were not counted on this fir
 | 2026-11-19 | Dutch, names their own product and founding year, offers "a few short ideas" | not pulled | | Peter replied in 17 minutes and asked the price |
 
 ## Notes on what is working
+
+- 2026-11-27: close rate in November 9 won of 38 real opportunities (24%), incremental on the Nov 23 count (+2 won, +6 real losses). Q4: 15 of 68 (22%). 5 of 6 real losses this week gave a timing reason, not price.
+- 2026-11-27: outbound email (Explee) booked Sun System Group (Italy, "Pergola brands" angle, reply Nov 25) and RST Sonnensegel (Leon, LinkedIn/Explee). LinkedIn booked Goriller. Send and reply counts not pulled.
 
 - 2026-11-20: close rate on real opportunities (no-shows and disqualified left out), Pipedrive API: Aug 15%, Sep 10%, Oct 22%, Nov 19% (to Nov 20). Q4: 12 won of 58. Top loss reason: "Wrong timing" (19 of 46), 11 of them at Commited or Confirmed. Not yet split by channel.
 - 2026-11-20: no-shows are 47 of 142 Q4 losses; this week 4 of 11 booked first demos.

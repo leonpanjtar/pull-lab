@@ -1,6 +1,6 @@
 ---
-stage: prospect
-pull: partial
+stage: customer
+pull: yes
 ---
 
 # Ben Parkin / Garador (Hörmann Group)
@@ -31,3 +31,4 @@ pull: partial
 - 2026-10-08: intro call.
 - 2026-11-11: next-steps call, technical Q&A, price accepted, no decision.
 - 2026-11-20: "Garador - SaleSqueze: Next steps" call at 12:00. Not logged yet.
+- 2026-11-24: won in Pipedrive, $14,000 (Leon). Internal kickoff 2026-11-25. Not in Stripe by 2026-11-27. TO CONFIRM: billing. Cycle 48 days from deal added.

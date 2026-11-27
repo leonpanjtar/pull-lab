@@ -1,5 +1,12 @@
 # Sales Log
 
+Rollup as of 2026-11-27 (window 2026-11-21 to 27, Pipedrive and Stripe; judgments by Claude, not AI Rob):
+
+- **Standard 1 (Repeatable case study):** 0 why-now quotes in buyers' own words, second week running. ZONZ go-live "mid-February" and Goriller "renewing the configurator" are rep summaries only.
+- **Standard 3 (Pull):** 1 of 3 held calls (33%): Concept Modular paid; ZONZ demo no new pull (pergolas later dropped); Betaco no. Bar: 60%.
+- **Standard 4 (Close rate):** November 9 of 38 (24%), Q4 15 of 68 (22%). Incremental update. Bar: 50%.
+- **Standard 5 (Cycle time):** Concept Modular 15 days, Garador 48 days. Bar: 14 days.
+
 Rollup as of 2026-11-23 (window 2026-11-17 to 23, Pipedrive and Stripe; judgments by Claude, not AI Rob):
 
 - **Standard 3 (Pull):** 4 of 7 logged conversations (57%): Bespoke, Beyond Yurt, My Retreat, Homestead pulled; Millers Poly, Kauslunde Kro, AyazWood didn't. 4 of 4 v1 fits. Concept Modular, Bill Wickman and Garador have no notes. Bar: 60%.
@@ -18,6 +25,11 @@ One row per call, newest first. "In their words" is only verbatim buyer text; a 
 
 | Date | Buyer | Pulled? | In their words | Fits case study? | Next step | Outcome | Cycle | Do differently |
 |---|---|---|---|---|---|---|---|---|
+| 2026-11-27 | Kenny Brock, Först (Pipedrive 3259, Leon) | No | not logged; "They are going to develop their own custom solution." (Leon's note) | No: €24k, larger build | none | Lost "Chose competitor" | | Get the decision date in their words earlier |
+| 2026-11-25 | [Noel Cassells and Karen, Concept Modular](../deals/noel-concept-modular/deal.md) (follow-up, 15 min) | **Yes**, paid on the call | not logged verbatim (Fathom summary: proceed "contingent on a fully customized configurator") | v1.1 on paper: 2025 brand, social ads | Setup meeting Nov 26 | **Won**: $870 setup + $297/mo (Stripe) | 15 days | Ask and save why now at kickoff |
+| 2026-11-25 | Baptist Gilson, Betaco (Pipedrive 3410, demo) | No | "we don't really need it" (Olga's notes, opening stance) | No: B2B furniture | none | Lost "No decision" Nov 26 | | Outbound reply to "could be interesting" isn't demand; qualify on a call first |
+| 2026-11-25 | [Tao Hulin, Beyond Yurt](../deals/tao-beyond-yurt/deal.md) (WhatsApp) | Said yes, hasn't signed | "Still here, still ready to go 👍🏼" | v1 fits | Sign-up | Open | | Give him a date to sign by |
+| 2026-11-24 | [Peter Ogterop, ZONZ sunsails](../deals/peter-zonz-sunsails/deal.md) (demo, 38 min, Olga) | No new pull: pricing given, Feb launch, CEO call for the dealer network | not verbatim; "mid-February 2027 launch" (Fathom summary) | v1.1 situation; trigger now unclear | Nov 26: "pergolas out of the picture, shade sails are possibly a go" (Olga) | Open, close task Dec 3 | | Write his date in his words |
 | 2026-11-23 | [Peter Ogterop, ZONZ sunsails](../deals/peter-zonz-sunsails/deal.md) (Tanja pre-call, ~8 min) | **Yes**: asked for a live dealer-network example in the demo | "spotting a customer I forgot to call back two weeks ago" (Tanja's notes) | v1.1 situation fits; trigger is a new supplier (Soliday pergolas) | Demo Tue 2026-11-24 09:00 with Olga, price first | Open | | Get the why-now date in his own words on the demo |
 | 2026-11-23 | Bax Janibekov, AyazWood (Pipedrive 3377), follow-up with Olga | No | not logged | Partly: outdoor saunas direct to Florida homeowners; "no capacity to grow" (Nov 9 note) | none | Lost "Wrong timing" 5 minutes after the call | | Log what he said |
 | 2026-11-23 | Lee Berks, Nebraska Backyard Living (Pipedrive 3406) | No-show | | Unknown | Re-book call 2026-11-24 | Lost "No show" | | 3 pre-qualification attempts before the demo |
