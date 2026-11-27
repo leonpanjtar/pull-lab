@@ -31,3 +31,5 @@ pull: yes
 - 2026-11-20: Encharge HOT; viewed the Spolding & Sons story 3 times.
 - 2026-11-23: Tanja's pre-call (~8 min) and handover to Olga. Pergolas from Soliday are the main interest; 50 retail shops; cash flow the biggest concern. Pipedrive deal is still titled "shade4you sp. z o. o." (TO CONFIRM: rename).
 - Next: demo Tue 2026-11-24 09:00 CET with Olga, price first.
+- 2026-11-24: demo with Olga (38 min). B2C price $870 setup + $297/mo, setup waived on annual prepay. Wants to launch mid-February 2027 (Olga's summary; we suggested December). ~100-dealer network needs a CEO call. Follow-up email Nov 25.
+- 2026-11-26: "pergolas out of the picture, shade sails are possibly a go" (Olga's note). Close task Dec 3.

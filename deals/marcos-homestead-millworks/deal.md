@@ -31,3 +31,4 @@ pull: yes
 - 2026-11-17: 83-minute demo with Olga. Asked for written pricing and a demo link. Marked lost "Wrong timing" the same evening.
 - 2026-11-20: flagged in the weekly review: pulled, then closed. Reopen and send what he asked for.
 - 2026-11-23: checked Pipedrive: still lost, no note, call or email since 2026-11-17. The pricing and demo link he asked for haven't been sent (6 days).
+- 2026-11-27: still lost, nothing sent (10 days). Olga drafted a check-in email (supplier transition, 3-month window, 7 to 14 day setup) as a Pipedrive task due 2026-12-01; Ajda has a re-engage call the same day.
